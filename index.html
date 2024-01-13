@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/57373789a9.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+
+  </head>
+
+  <body>
+    <h1>Your Calculator <span><i class="fa-solid fa-calculator" style="color: rgb(206, 0, 76);"></i></span></h1>
+    <div class="box flex">
+      <input id="input" type="text" />
+      <div class="one">
+        <div>
+            <button class="clear">AC</button>
+            <button class="button operator" value="%">%</button>
+            <button class="button operator" value=".">.</button>
+            <button class="button operator" value="+">+</button>
+          </div>
+        <div>
+          <button class="button" value="1">1</button>
+          <button class="button" value="2">2</button>
+          <button class="button" value="3">3</button>
+          <button class="button operator" value="*">*</button>
+        </div>
+        <div>
+          <button class="button" value="4">4</button>
+          <button class="button" value="5">5</button>
+          <button class="button" value="6">6</button>
+          <button class="button operator" value="/">/</button>
+        </div>
+        <div>
+          <button class="button" value="7">7</button>
+          <button class="button" value="8">8</button>
+          <button class="button" value="9">9</button>
+          <button class="button operator" value="-">-</button>
+        </div>
+        <div>
+          <button class="button" value="0">0</button>
+          <button class="button" value="(">(</button>
+          <button class="button" value=")">)</button>  
+          <button class="equal" value="equal">=</button>
+         
+        </div>
+        <div>
+          <button class="erase">erase</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

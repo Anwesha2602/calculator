@@ -1,0 +1,80 @@
+.box {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #cfcdcd;
+    width: 400px;
+    border-radius: 30px;
+    background-color: rgb(246, 204, 125);
+  }
+  h1 {
+    height: 50px;
+    text-align: center;
+  }
+
+  button {
+    text-align: center;
+    border-radius: 10px;
+    width: 55px;
+    height: 50px;
+    margin: 10px;
+    background: rgb(246, 246, 116);
+  }
+  .operator{
+    background: #f2f202;
+  }
+
+  .equal {
+    background: rgb(111, 218, 111);
+  }
+  .equal:hover{
+    background: rgb(46, 177, 46);
+  }
+  .clear {
+    background: rgb(247, 49, 85);
+  }
+  .clear:hover{
+    background:rgb(255, 8, 53);
+  }
+
+  button:hover {
+    cursor: pointer;
+    background: yellow;
+  }
+
+  input {
+    width: 280px;
+    height: 35px;
+    margin: 25px;
+    border-radius: 5px;
+  }
+
+  input:focus{
+    background: rgb(229, 229, 229);
+  }
+
+
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .box {
+      width: 80%;
+    }
+    input {
+      width: 280px;
+      margin: 10px auto;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .box {
+      width: 300px;
+    }
+    button {
+      width: 45px;
+      margin: 5px;
+    }
+    input {
+      width: 80%;
+      margin: 10px auto;
+    }
+  }
